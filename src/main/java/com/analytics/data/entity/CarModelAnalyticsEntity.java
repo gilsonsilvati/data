@@ -12,7 +12,7 @@ import lombok.NoArgsConstructor;
 @Table(name = "car_model_analytics")
 @Data
 @NoArgsConstructor
-public class ModelAnalyticsEntity {
+public class CarModelAnalyticsEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)

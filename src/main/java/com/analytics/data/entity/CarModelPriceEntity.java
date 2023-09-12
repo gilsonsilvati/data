@@ -12,12 +12,12 @@ import lombok.NoArgsConstructor;
 @Table(name = "car_model_price")
 @Data
 @NoArgsConstructor
-public class PriceAnalyticsEntity {
+public class CarModelPriceEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
+    private String model;
     private Double price;
-    private Long posts;
 }
